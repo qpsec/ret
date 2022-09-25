@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4A4A4A;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    
+}
+.cs-sd2{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 640px;
+    line-height: 600px;
+    height: 0px;
+    max-height: 0px;
+    background: none;
+    font-weight: 0;
+    border: 0;
+    border-radius: 0;
+    color: #00ff22;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    transition-duration: 150ms;
+    box-shadow: none;
+    font: bold;
+}
